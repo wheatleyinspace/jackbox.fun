@@ -1,12 +1,3 @@
-const http = require('http');
-const server = http.createServer((req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*'); // Разрешение для всех доменов
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Разрешение методов
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type'); // Разрешение заголовков
-
-  res.statusCode = 200;
-  res.end('Done.');
-});
 var ia = Object.defineProperty;
 var oa = (t, e, r) => e in t ? ia(t, e, {
     enumerable: !0,
