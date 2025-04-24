@@ -1,3 +1,4 @@
+Access-Control-Allow-Origin: *
 var ia = Object.defineProperty;
 var oa = (t, e, r) => e in t ? ia(t, e, {
     enumerable: !0,
