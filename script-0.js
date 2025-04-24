@@ -1,3 +1,4 @@
+const http = require('http');
 const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*'); // Разрешение для всех доменов
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Разрешение методов
