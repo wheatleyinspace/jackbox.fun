@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/moderator",
+      "destination": "/main/@moderator/script.js"
+    }
+  ]
+}
