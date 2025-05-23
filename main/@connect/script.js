@@ -25280,7 +25280,7 @@ class nH {
         if (!Ke.isSupported) return;
         const e = rH();
         Ke.set("twitchState", e);
-        const r = "rfwnzjykovull527foy3lccp32jpbz";
+        const r = "i4k59laecrfxor1j3e9aqdceocmimq";
         let n = `https://${window.location.hostname}`;
         window.location.hostname === "localhost" && (n = "http://localhost:9090/");
         let i = "https://id.twitch.tv/oauth2/authorize";
@@ -25313,7 +25313,7 @@ class nH {
             const n = await (await fetch("https://api.twitch.tv/helix/users", {
                 headers: {
                     Authorization: `Bearer ${e}`,
-                    "Client-ID": "rfwnzjykovull527foy3lccp32jpbz"
+                    "Client-ID": "i4k59laecrfxor1j3e9aqdceocmimq"
                 }
             })).json();
             if (!n || !n.data) return null;
