@@ -1,8 +1,0 @@
-{
-  "routes": [
-    {
-      "src": "/moderator",
-      "dest": "/index.html"
-    }
-  ]
-}
